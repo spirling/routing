@@ -13,8 +13,15 @@
       "role": "Developer"
     }
   ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../../spirling/interfaces"
+    }
+  ],
   "require": {
-    "php": "^7.4"
+    "php": "^7.4",
+    "spirling/interfaces": "*"
   },
   "autoload": {
     "psr-4": {
